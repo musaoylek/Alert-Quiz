@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title> Javascript Quiz </title>
+</head>
+<body>
+<h1>Hoş Geldiniz</h1>
+
+<script>
+
+  
+  var bir= prompt("Sağır ve dilsizlerde tam ceza ehliyet yaşı kaçtır?");
+
+ switch (bir) {
+ 
+  case "21":
+  
+  confirm("Tebrikler doğru cevap");
+  break;
+  default:
+  confirm("Maalesef yanlış cevap");
+  break;
+  }
+  
+   var iki= prompt("Korunmaya muhtaç kimseler için alınan korunma tedbirlerine ne ad verilmektedir?");
+
+ switch (iki) {
+ 
+  case "vesayet":
+  
+  confirm("Tebrikler doğru cevap");
+  break;
+  default:
+  confirm("Maalesef yanlış cevap");
+  break;
+  }
+  
+  </script>
+  </body>
+  </html>
